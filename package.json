@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "My mern app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chidiebere",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
