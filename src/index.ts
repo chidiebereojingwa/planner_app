@@ -1,16 +1,3 @@
 import express from 'express'
+import './db'
 
-// create a server
-const app = express()
-
-
-app.get('/', (req, res) => {
-    res.send('<h1> Hello Governor,  you are the main guy</h1>')
-})
-
-
-
-// listen to some port
-app.listen(8000, () => {
-    console.log("listening")
-})
